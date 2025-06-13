@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LNCT College Professional Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1>LNCT</h1>
+                        <p>Group of Colleges</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#academics">Academics</a>
+                    <a href="#admissions">Admissions</a>
+                    <a href="#departments">Departments</a>
+                    <a href="#campus-life">Campus Life</a>
+                    <a href="#campus-exploration">Campus Exploration</a>
+                    <a href="#events">Events</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="nav-mobile" id="mobileNav">
+            <div class="mobile-nav-content">
+                <a href="#home" onclick="closeMobileMenu()">Home</a>
+                <a href="#about" onclick="closeMobileMenu()">About Us</a>
+                <a href="#academics" onclick="closeMobileMenu()">Academics</a>
+                <a href="#admissions" onclick="closeMobileMenu()">Admissions</a>
+                <a href="#departments" onclick="closeMobileMenu()">Departments</a>
+                <a href="#campus-life" onclick="closeMobileMenu()">Campus Life</a>
+                <a href="#campus-exploration" onclick="closeMobileMenu()">Campus Exploration</a>
+                <a href="#events" onclick="closeMobileMenu()">Events</a>
+                <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Welcome to <span class="gradient-text">LNCT</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Lakshmi Narain College of Technology - Shaping Future Leaders in Engineering, Technology & Management
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Apply Now</button>
+                    <button class="btn btn-secondary">Virtual Tour</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">25+</div>
+                    <div class="stat-label">Years of Excellence</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15000+</div>
+                    <div class="stat-label">Students</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <div class="stat-label">Faculty Members</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Placement Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About LNCT Group</h2>
+                <p>Established in 1994, LNCT Group has been at the forefront of technical education in Central India</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Legacy</h3>
+                    <p>LNCT Group of Colleges stands as a beacon of excellence in technical education, established with the vision of creating world-class engineers and technologists. Over the past 25+ years, we have consistently maintained our position as one of the premier educational institutions in Madhya Pradesh.</p>
+                    <p>Our commitment to quality education, industry-relevant curriculum, and holistic development has produced thousands of successful professionals who are making significant contributions across various sectors globally.</p>
+                    <div class="achievement-grid">
+                        <div class="achievement-item">
+                            <i class="fas fa-award"></i>
+                            <div>NAAC A+ Accredited</div>
+                        </div>
+                        <div class="achievement-item">
+                            <i class="fas fa-building"></i>
+                            <div>Multiple Campuses</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-mission">
+                    <h4>Our Mission</h4>
+                    <p>To provide world-class technical education and foster innovation, research, and entrepreneurship among students while maintaining the highest standards of academic excellence.</p>
+                    <h4>Our Vision</h4>
+                    <p>To be recognized globally as a premier institution that transforms students into competent professionals and responsible citizens who contribute to society's progress.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->
+    <section id="academics" class="academics">
+        <div class="container">
+            <div class="section-header">
+                <h2>Academic Programs</h2>
+                <p>Comprehensive programs designed for the future</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Undergraduate Programs</h3>
+                    <ul>
+                        <li>• B.Tech in 8 specializations</li>
+                        <li>• B.E. in core engineering branches</li>
+                        <li>• BCA & B.Sc. programs</li>
+                        <li>• BBA & B.Com programs</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Postgraduate Programs</h3>
+                    <ul>
+                        <li>• M.Tech in various specializations</li>
+                        <li>• MBA & PGDM programs</li>
+                        <li>• MCA & M.Sc. programs</li>
+                        <li>• Research-oriented programs</li>
+                    </ul>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Doctoral Programs</h3>
+                    <ul>
+                        <li>• Ph.D. in Engineering</li>
+                        <li>• Ph.D. in Management</li>
+                        <li>• Ph.D. in Applied Sciences</li>
+                        <li>• Research fellowships available</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admissions Section -->
+    <section id="admissions" class="admissions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Admissions</h2>
+                <p>Join the LNCT family and shape your future</p>
+            </div>
+
+            <div class="admissions-content">
+                <div class="admission-process">
+                    <h3>Admission Process</h3>
+                    <div class="process-steps">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Online Application</h4>
+                                <p>Submit your application form with required documents</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Entrance Exam</h4>
+                                <p>Appear for JEE Main/MP JET or university entrance exam</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Counseling</h4>
+                                <p>Participate in counseling process for seat allocation</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Admission Confirmation</h4>
+                                <p>Complete admission formalities and fee payment</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="fee-structure">
+                    <h3>Fee Structure (Annual)</h3>
+                    <div class="fee-table">
+                        <div class="fee-row">
+                            <span>B.Tech Programs</span>
+                            <span class="fee-amount">₹1,20,000</span>
+                        </div>
+                        <div class="fee-row">
+                            <span>M.Tech Programs</span>
+                            <span class="fee-amount">₹90,000</span>
+                        </div>
+                        <div class="fee-row">
+                            <span>MBA Programs</span>
+                            <span class="fee-amount">₹1,50,000</span>
+                        </div>
+                        <div class="fee-row">
+                            <span>BCA/MCA Programs</span>
+                            <span class="fee-amount">₹80,000</span>
+                        </div>
+                    </div>
+                    <div class="fee-note">
+                        <p><strong>Note:</strong> Scholarships available for meritorious students. Fee structure may vary for different categories.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Departments Section -->
+    <section id="departments" class="departments">
+        <div class="container">
+            <div class="section-header">
+                <h2>Departments</h2>
+                <p>Excellence across multiple disciplines</p>
+            </div>
+
+            <div class="departments-grid">
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Computer Science & Engineering</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">2000+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">80+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Mechanical Engineering</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">1500+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">60+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Electrical & Electronics Engineering</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">1200+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">50+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Civil Engineering</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">1000+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">45+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Information Technology</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">1800+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">70+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Electronics & Communication</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">1300+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">55+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Management Studies</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">800+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">35+</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="department-card">
+                    <div class="dept-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Applied Sciences</h3>
+                    <div class="dept-stats">
+                        <div class="stat">
+                            <span>Students:</span>
+                            <span class="stat-value">600+</span>
+                        </div>
+                        <div class="stat">
+                            <span>Faculty:</span>
+                            <span class="stat-value">40+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section id="campus-life" class="campus-life">
+        <div class="container">
+            <div class="section-header">
+                <h2>Campus Life</h2>
+                <p>Experience vibrant student life at LNCT</p>
+            </div>
+
+            <div class="campus-life-grid">
+                <div class="life-item">
+                    <div class="life-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Student Activities</h3>
+                    <p>Over 50+ student clubs and societies covering technical, cultural, sports, and social activities. Regular workshops, seminars, and competitions.</p>
+                </div>
+
+                <div class="life-item">
+                    <div class="life-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Infrastructure</h3>
+                    <p>Modern hostels, well-equipped laboratories, digital libraries, sports facilities, cafeterias, and recreational areas for holistic development.</p>
+                </div>
+
+                <div class="life-item">
+                    <div class="life-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Achievements</h3>
+                    <p>Students regularly win national and international competitions in technical events, sports, cultural activities, and research presentations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Campus Exploration Section -->
+    <section id="campus-exploration" class="campus-exploration">
+        <div class="container">
+            <div class="section-header">
+                <h2>Campus Exploration</h2>
+                <p>Discover our multiple campuses across Madhya Pradesh</p>
+            </div>
+
+            <div class="campuses-grid">
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="LNCT Main Campus.jpg" alt="LNCT Main Campus">
+                    </div>
+                    <div class="campus-content">
+                        <div class="campus-header">
+                            <h3>LNCT Main Campus</h3>
+                            <div class="campus-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bhopal, Madhya Pradesh</span>
+                            </div>
+                        </div>
+                        <p>The flagship campus of LNCT Group, established as a premier institution for engineering and technology education. Known for its state-of-the-art infrastructure, world-class faculty, and excellent placement records.</p>
+                        <div class="campus-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Engineering & Technology</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Research & Development</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Industry Partnerships</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Modern Infrastructure</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary campus-btn">
+                            <span>Explore Campus</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="LNCT Indore Campus.jpg" alt="LNCT Indore Campus">
+                    </div>
+                    <div class="campus-content">
+                        <div class="campus-header">
+                            <h3>LNCT Indore Campus</h3>
+                            <div class="campus-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Indore, Madhya Pradesh</span>
+                            </div>
+                        </div>
+                        <p>A modern campus offering diverse programs in engineering, management, and applied sciences. Features contemporary facilities and focuses on innovation-driven education.</p>
+                        <div class="campus-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Multi-disciplinary Programs</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Innovation Hub</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Industry Connect</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Modern Facilities</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary campus-btn">
+                            <span>Explore Campus</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="JNCT Campus.jpg" alt="JNCT Campus">
+                    </div>
+                    <div class="campus-content">
+                        <div class="campus-header">
+                            <h3>JNCT Campus</h3>
+                            <div class="campus-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bhopal, Madhya Pradesh</span>
+                            </div>
+                        </div>
+                        <p>Jai Narain College of Technology, part of the LNCT Group, offering specialized programs in engineering and technology with emphasis on practical learning and skill development.</p>
+                        <div class="campus-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Specialized Engineering</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Practical Learning</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Skill Development</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Industry Ready Programs</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary campus-btn">
+                            <span>Explore Campus</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="campus-card">
+                    <div class="campus-image">
+                        <img src="LNCTU.jpg" alt="LNCT University">
+                    </div>
+                    <div class="campus-content">
+                        <div class="campus-header">
+                            <h3>LNCT University</h3>
+                            <div class="campus-location">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bhopal, Madhya Pradesh</span>
+                            </div>
+                        </div>
+                        <p>The university campus offering undergraduate, postgraduate, and doctoral programs across multiple disciplines. Features advanced research facilities and comprehensive academic programs.</p>
+                        <div class="campus-highlights">
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>University Status</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Research Excellence</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Doctoral Programs</span>
+                            </div>
+                            <div class="highlight">
+                                <i class="fas fa-star"></i>
+                                <span>Multi-disciplinary Education</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary campus-btn">
+                            <span>Explore Campus</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <p>Get in touch with us for admissions and inquiries</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <p class="contact-label">Main Campus Address</p>
+                                <p>Berasia Road, Lambakheda, Bhopal, MP 462038</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <p class="contact-label">Phone</p>
+                                <p>+91-755-2740800, 2740900</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <p class="contact-label">Email</p>
+                                <p>info@lnct.ac.in</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <i class="fab fa-facebook"></i>
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-linkedin"></i>
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone</label>
+                            <input type="tel" placeholder="Enter your phone number" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea rows="4" placeholder="Enter your message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="logo-text">
+                            <h3>LNCT</h3>
+                            <p>Group of Colleges</p>
+                        </div>
+                    </div>
+                    <p>Leading technical education institution in Central India, committed to excellence in engineering and technology education.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="#campus-life">Campus Life</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#">B.Tech</a></li>
+                        <li><a href="#">M.Tech</a></li>
+                        <li><a href="#">MBA</a></li>
+                        <li><a href="#">Ph.D</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p>Berasia Road, Lambakheda</p>
+                        <p>Bhopal, MP 462038</p>
+                        <p>Phone: +91-755-2740800</p>
+                        <p>Email: info@lnct.ac.in</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 LNCT Group of Colleges. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
